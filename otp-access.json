@@ -1,4 +1,5 @@
 {
-    "status": "error",
-    "locked": ["locked", "locked", "locked", "locked"]
+  "status": "error",
+  "locked": ["locked", "locked", "locked", "locked"],
+  "encrypted_flag": "U2FsdGVkX1/nSNIK5nuwkP8AWy+rm6HCfpgjLpCIpm2onDXUtU5qy2LhoaJiYj9pt5ygx3M046zzqBnUT/Oa/w=="
 }
