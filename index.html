@@ -35,7 +35,7 @@ const submitBtn = document.getElementById("submitBtn");
 const result = document.getElementById("result");
 
 submitBtn.onclick = async () => {
-    const r = await fetch("otp-api.json"); 
+    const r = await fetch("otp-access.json"); 
     const data = await r.json();
 
     if (Array.isArray(data.locked) && data.locked.every(v => v === "open")) {
